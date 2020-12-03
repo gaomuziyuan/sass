@@ -1,0 +1,73 @@
+body {
+  background-color: #a3f3f4;
+  font-family: Calibri, Arial, sans-serif;
+  font-size: 112.5%;
+  color: tomato;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+}
+nav li {
+  padding: 5px 10px;
+}
+nav a {
+  color: orange;
+}
+
+a {
+  color: yellow;
+}
+
+button, .dog, .cat {
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: pink;
+}
+
+.cat {
+  background-color: cyan;
+}
+
+.dog {
+  background-color: purple;
+}
+
+main li:nth-child(3n+1) {
+  background-color: #b3b300;
+}
+
+main li:nth-child(3n+2) {
+  background-color: #666600;
+}
+
+main li:nth-child(3n+3) {
+  background-color: #1a1a00;
+}
+
+main ul {
+  -webkit-transform: skewX(20deg);
+  -ms-transform: skewX(20deg);
+  transform: skewX(20deg);
+  background-color: #31e4e6;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: cursive;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-width: 3px;
+  border-style: dotted;
+  border-color: #333;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */
